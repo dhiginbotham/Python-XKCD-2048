@@ -1,6 +1,7 @@
 
 #
-# XKCD 2048
+# Python Version of XKCD cominc 2048
+# by Douglas Weadon Higinbotham
 #
 
 import matplotlib.pyplot as plt
@@ -264,7 +265,7 @@ frame1.axes.xaxis.set_ticks([])
 plt.xkcd()
 plt.subplot(3,4,11)
 import matplotlib.image as mpimg
-img=mpimg.imread('elephant.png')
+img=mpimg.imread('Figures/elephant.png')
 plt.imshow(img,extent=(10,330,20,270))
 plt.annotate('Elephant',xy=(20,240),color='grey')
 plt.xlabel('"AND WITH FIVE \n PARAMETERS I CAN MAKE \n ITS TRUNK WIGGLE."')
@@ -291,7 +292,7 @@ frame1.axes.yaxis.set_ticks([])
 frame1.axes.xaxis.set_ticks([])
 
 plt.tight_layout(rect=[0, 0.01, 1, 0.975])
-plt.savefig('FunWithXKCD.png')
-plt.savefig('FunWithXKCD.pdf')
+plt.savefig('Figures/Python-XKCD-2048.png')
+plt.savefig('Figures/Python-XKCD-2048.pdf')
 
 plt.show()
