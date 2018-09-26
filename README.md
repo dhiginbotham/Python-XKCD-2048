@@ -1,4 +1,3 @@
-
 Python code inspired by https://xkcd.com/2048/ 
 
 Output posted on Twitter https://twitter.com/dwhiginbotham/status/1043837703991832577 
