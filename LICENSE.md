@@ -1,2 +1,0 @@
-
-https://creativecommons.org/licenses/by-nc/2.5/
